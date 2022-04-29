@@ -24,7 +24,7 @@ while True:
         ImageGrab.grab().save(save_path)  
         imagenes.append("ss_"+str(x)+".png") # Agregamos el nombre a la lista imagenes
         x += 1
-        print("Imagen guardada") # Referencia para ver si la imagen se tomó
+        print("Imagen guardadaasdasdasdads") # Referencia para ver si la imagen se tomó
 
     elif keyboard.read_key() == "ctrl": # Salimos del while cuando presionamos la tecla ctrl
         break
